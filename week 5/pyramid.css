@@ -1,0 +1,41 @@
+.Top {
+background-color: red;
+color: black;
+font-weight: bold;
+text-align: center;
+padding: 30px;
+margin-left: 30% ;
+margin-right: 30% ; 
+
+}
+
+.Middle { 
+background-color: blue;
+color: black;
+font-weight: bold;
+text-align: center;
+padding: 30px;
+margin-left: 20% ;
+margin-right: 20%;
+}
+
+.Bottom {
+background-color: green;
+color: black;
+font-weight: bold;
+text-align: center;
+padding: 30px;
+margin-right: 10% ; 
+margin-left: 10% ; 
+}
+
+.boxes { 
+
+    background-color: purple;
+    color: purple;
+    text-align: center;
+    padding: 50px;
+    margin-top: 200px;
+    
+
+}

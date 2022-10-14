@@ -1,0 +1,19 @@
+body, 
+html { 
+    padding: 0;
+    margin: 0;
+}
+
+
+.mainContent {
+    width: 500px;
+    margin: 0 auto;
+}
+/* This below is a media query. Using alot of these helps the webpage look good on any size or type of device */
+/* What it does is only enforces rules when its within the requirements you give it
+i.e. the 800px width below */
+@media screen and (min-width: 800px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
