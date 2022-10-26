@@ -1,0 +1,30 @@
+
+body{
+    margin: 0 auto;
+}
+
+.topDiv{
+    margin: 0 auto;
+    width: auto;
+}
+
+.bottomDiv{
+    margin: 0 auto;
+    background-color: rgb(132, 125, 125);
+    width: auto;
+}
+
+.titleImage{
+    margin-bottom: 0;
+    display:block;
+    width: 100%;
+}
+
+.images{
+    border-radius:170px;
+    border: 13px solid;
+    width: auto;
+    max-width: 250px;
+    margin: 50px 70px;
+    border-color: rgb(61, 59, 59);
+}
