@@ -281,4 +281,7 @@ main section img {
     grid-row: 6;
     grid-column: 1/6;
 }
-
+.comment{
+    margin-top: 75px;
+    align-items: center;
+}
