@@ -16,7 +16,27 @@
     </nav>
     </header>
     <main>
-        <div class = "container-large">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+            <button class="tablinks" onclick="openCity(event, 'Explore')">Explore</button>
+            <button class="tablinks" onclick="openCity(event, 'Profile')">Profile</button>
+          </div>
+          
+          <div id="London" class="tabcontent">
+            <h3>Home</h3>
+            <p>Home Page </p>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <h3>Explore</h3>
+            <p>Explore Page</p>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h3>Profile</h3>
+            <p>Profile Page</p>
+          </div>
+        <!-- <div class = "container-large">
             <div class = "pagination">
                 <ul>
                     <li class = "active"><a href="1">Home</a></li>
@@ -25,7 +45,7 @@
                 </ul>
 
             </div>
-        </div>
+        </div> -->
         <div>
             <img src="./images/explore-page/coffeeshop.jpg" alt="coffeeshop">
         </div>
